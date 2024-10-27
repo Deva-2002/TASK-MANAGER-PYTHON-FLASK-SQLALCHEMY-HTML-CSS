@@ -12,6 +12,9 @@
 #jinja2-templating engine in flask
 #deploying app on heroku
 #pip install gunicorn , pip freeze > requirements.txt , create a file Procfile(used by heroku for deployment)
+#on vscode terminal heroku, heroku login
+#git init, git add .,git commit -m "Initial commit"
+#heroku create todolist-devakrishnasj
 
 from flask import Flask,render_template,request,redirect
 from flask_sqlalchemy import SQLAlchemy
